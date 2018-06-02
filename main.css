@@ -1,0 +1,42 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;	
+}
+
+article {
+align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+}
+
+h1 {
+display: inline-block;
+}
+
+img {
+max-width: 100%;
+}
+
+#mainArticle{
+border-bottom: thin solid gray;
+}
+#banner {
+max-width: 100vw;
+width: 100vw;
+}
